@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ANqv0LSWEe6w58bPN2SORQ" name="ProjetoFramework">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_ARjxULSWEe6w58bPN2SORQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_AOcy8LSWEe6w58bPN2SORQ" name="Activity1"/>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_APEeALSWEe6w58bPN2SORQ" name="StateMachine2">
+    <region xmi:type="uml:Region" xmi:id="_APRSULSWEe6w58bPN2SORQ" name="Region1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_APZ1MLSWEe6w58bPN2SORQ" name="Interaction3"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_APqT4LSWEe6w58bPN2SORQ" name="Interaction4"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ONncgLSWEe6w58bPN2SORQ" name="Administrador"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_syebELSYEe6PDdUeDdrZoQ" memberEnd="_sygQQLSYEe6PDdUeDdrZoQ _syg3ULSYEe6PDdUeDdrZoQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_syfpMLSYEe6PDdUeDdrZoQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_syfpMbSYEe6PDdUeDdrZoQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sygQQLSYEe6PDdUeDdrZoQ" name="cadastrar nova reserva" type="_o8-wMLSYEe6PDdUeDdrZoQ" association="_syebELSYEe6PDdUeDdrZoQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_syg3ULSYEe6PDdUeDdrZoQ" name="administrador" type="_ONncgLSWEe6w58bPN2SORQ" association="_syebELSYEe6PDdUeDdrZoQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_htuewLSZEe6PDdUeDdrZoQ" memberEnd="_htvF0LSZEe6PDdUeDdrZoQ _htvF0bSZEe6PDdUeDdrZoQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_htuewbSZEe6PDdUeDdrZoQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_htuewrSZEe6PDdUeDdrZoQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_htvF0LSZEe6PDdUeDdrZoQ" name="verificar finanças" type="_QhDXYLSZEe6PDdUeDdrZoQ" association="_htuewLSZEe6PDdUeDdrZoQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_htvF0bSZEe6PDdUeDdrZoQ" name="administrador" type="_ONncgLSWEe6w58bPN2SORQ" association="_htuewLSZEe6PDdUeDdrZoQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kPaYYLSZEe6PDdUeDdrZoQ" memberEnd="_kPbmgLSZEe6PDdUeDdrZoQ _kPbmgbSZEe6PDdUeDdrZoQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kPa_cLSZEe6PDdUeDdrZoQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kPa_cbSZEe6PDdUeDdrZoQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kPbmgLSZEe6PDdUeDdrZoQ" name="verificar ocupação" type="_2jfCILSYEe6PDdUeDdrZoQ" association="_kPaYYLSZEe6PDdUeDdrZoQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kPbmgbSZEe6PDdUeDdrZoQ" name="administrador" type="_ONncgLSWEe6w58bPN2SORQ" association="_kPaYYLSZEe6PDdUeDdrZoQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_rSzioLSZEe6PDdUeDdrZoQ" name="Gerenciamento">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_m6-mwLSZEe6PDdUeDdrZoQ" name="Verificar Reservas ">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_PvAuQLTMEe69O7lF5nYsoA" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_M8LIUbTOEe69O7lF5nYsoA" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_2jfCILSYEe6PDdUeDdrZoQ" name="Verificar Ocupação"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_o8-wMLSYEe6PDdUeDdrZoQ" name="Cadastrar Nova Reserva"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_QhDXYLSZEe6PDdUeDdrZoQ" name="Verificar Finanças">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_3X7vULTDEe6PDdUeDdrZoQ" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_pAcFULTDEe6PDdUeDdrZoQ" name="Gerar Relatórios Financeiros">
+      <extend xmi:type="uml:Extend" xmi:id="_3X7IQLTDEe6PDdUeDdrZoQ" extendedCase="_QhDXYLSZEe6PDdUeDdrZoQ" extensionLocation="_3X7vULTDEe6PDdUeDdrZoQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_x8r8sLTFEe6PDdUeDdrZoQ" name="Excluir Reserva"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_99mw4LTFEe6PDdUeDdrZoQ" name="Cadastrar Reservas dos Sites"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qNb_wLTKEe6PDdUeDdrZoQ" name="Gerenciar Quartos">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_fEsCULTNEe69O7lF5nYsoA" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_iMZaILTNEe69O7lF5nYsoA" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Knzj4LTMEe69O7lF5nYsoA" name="Acessar Dados de Reserva">
+      <extend xmi:type="uml:Extend" xmi:id="_Pu9q8LTMEe69O7lF5nYsoA" extendedCase="_m6-mwLSZEe6PDdUeDdrZoQ" extensionLocation="_PvAuQLTMEe69O7lF5nYsoA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XpHooLTNEe69O7lF5nYsoA" name="Atualizar Status de Limpeza">
+      <extend xmi:type="uml:Extend" xmi:id="_iMYzELTNEe69O7lF5nYsoA" extendedCase="_qNb_wLTKEe6PDdUeDdrZoQ" extensionLocation="_iMZaILTNEe69O7lF5nYsoA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VoIoULTNEe69O7lF5nYsoA" name="Abrir/Fechar Quarto">
+      <extend xmi:type="uml:Extend" xmi:id="_fErbQLTNEe69O7lF5nYsoA" extendedCase="_qNb_wLTKEe6PDdUeDdrZoQ" extensionLocation="_fEsCULTNEe69O7lF5nYsoA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_FQmjwLTOEe69O7lF5nYsoA" name="Verificar Check-ins Próximos">
+      <extend xmi:type="uml:Extend" xmi:id="_M8LIULTOEe69O7lF5nYsoA" extendedCase="_m6-mwLSZEe6PDdUeDdrZoQ" extensionLocation="_M8LIUbTOEe69O7lF5nYsoA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gEgBsLSaEe6PDdUeDdrZoQ" memberEnd="_gEgowLSaEe6PDdUeDdrZoQ _gEgowbSaEe6PDdUeDdrZoQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gEgBsbSaEe6PDdUeDdrZoQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gEgBsrSaEe6PDdUeDdrZoQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gEgowLSaEe6PDdUeDdrZoQ" name="administrador" type="_ONncgLSWEe6w58bPN2SORQ" association="_gEgBsLSaEe6PDdUeDdrZoQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gEgowbSaEe6PDdUeDdrZoQ" name="verificar reservas futuras" type="_m6-mwLSZEe6PDdUeDdrZoQ" association="_gEgBsLSaEe6PDdUeDdrZoQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3fmLoLTFEe6PDdUeDdrZoQ" memberEnd="_3fnZwLTFEe6PDdUeDdrZoQ _3fnZwbTFEe6PDdUeDdrZoQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3fmysLTFEe6PDdUeDdrZoQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3fmysbTFEe6PDdUeDdrZoQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3fnZwLTFEe6PDdUeDdrZoQ" name="excluir reserva" type="_x8r8sLTFEe6PDdUeDdrZoQ" association="_3fmLoLTFEe6PDdUeDdrZoQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3fnZwbTFEe6PDdUeDdrZoQ" name="administrador" type="_ONncgLSWEe6w58bPN2SORQ" association="_3fmLoLTFEe6PDdUeDdrZoQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_e7H60LTGEe6PDdUeDdrZoQ" memberEnd="_e7JI8bTGEe6PDdUeDdrZoQ _e7JI8rTGEe6PDdUeDdrZoQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_e7Ih4LTGEe6PDdUeDdrZoQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e7JI8LTGEe6PDdUeDdrZoQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_e7JI8bTGEe6PDdUeDdrZoQ" name="api" type="_N8t48LTGEe6PDdUeDdrZoQ" association="_e7H60LTGEe6PDdUeDdrZoQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_e7JI8rTGEe6PDdUeDdrZoQ" name="cadastrar reservas dos sites" type="_99mw4LTFEe6PDdUeDdrZoQ" association="_e7H60LTGEe6PDdUeDdrZoQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_23qPoLTKEe6PDdUeDdrZoQ" memberEnd="_23qPo7TKEe6PDdUeDdrZoQ _23q2sLTKEe6PDdUeDdrZoQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_23qPobTKEe6PDdUeDdrZoQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_23qPorTKEe6PDdUeDdrZoQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_23qPo7TKEe6PDdUeDdrZoQ" name="gerenciar quartos" type="_qNb_wLTKEe6PDdUeDdrZoQ" association="_23qPoLTKEe6PDdUeDdrZoQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_23q2sLTKEe6PDdUeDdrZoQ" name="administrador" type="_ONncgLSWEe6w58bPN2SORQ" association="_23qPoLTKEe6PDdUeDdrZoQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_N8t48LTGEe6PDdUeDdrZoQ" name="API"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_uaOeYLTMEe69O7lF5nYsoA" name="Reserva"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_3F_UoLTMEe69O7lF5nYsoA" name="Quarto"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QeBecLTOEe69O7lF5nYsoA" name="Hóspede"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_bQqhoLTOEe69O7lF5nYsoA" name="Cama"/>
+</uml:Model>
