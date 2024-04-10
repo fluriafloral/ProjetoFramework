@@ -1,0 +1,7 @@
+struct Document {
+
+}
+
+struct Guest {
+    
+}
