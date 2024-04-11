@@ -19,7 +19,7 @@ enum Origin {
 
 @Getter
 @Setter
-public class Reservation {
+public class Reserve {
 
     @Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -31,5 +31,6 @@ public class Reservation {
     private int adults;
     private int children;
     private Accommodation accommodation;
+    private Fare fare;
 
 }

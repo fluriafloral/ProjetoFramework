@@ -21,4 +21,6 @@ public class AccCategory {
     private int maxNumberOfGuests;
     private boolean active;
     private boolean acceptsChildren;
+    private int maxNumberOfChildren;
+
 }

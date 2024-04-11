@@ -11,13 +11,20 @@ enum Sex {
     NOT_INFORMED
 }
 
+enum Type {
+    CPF, 
+    PASSPORT,
+    CNPJ
+}
+
 @Getter
 @Setter
 public abstract class Person {
 
     private String name;
     private String surName;
-    private Document document;
+    private String documentNumber;
+    private Type documentType;
     private Sex sex;
     private LocalDate birthday;
 
