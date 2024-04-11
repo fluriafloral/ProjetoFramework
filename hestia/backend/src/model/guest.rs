@@ -1,7 +1,0 @@
-struct Document {
-
-}
-
-struct Guest {
-    
-}
