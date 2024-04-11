@@ -4,11 +4,13 @@ import lombok.Getter;
 import lombok.Setter;
 
 import jakarta.persistence.Id;
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 
 @Getter
 @Setter
+@Entity
 public class AccCategory {
 
     @Id
@@ -18,7 +20,6 @@ public class AccCategory {
     private String name;
     private String description;
     private int quantity;
-    private int maxNumberOfGuests;
     private boolean active;
     private boolean acceptsChildren;
     private int maxNumberOfChildren;

@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import jakarta.persistence.Id;
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 
@@ -16,6 +17,7 @@ enum Status {
 
 @Getter
 @Setter
+@Entity
 public class Accommodation {
 
     @Id
@@ -25,5 +27,7 @@ public class Accommodation {
     private String name;
     private AccCategory category;
     private Status status;
+    private int occupation;
+    private int maxOccupation;
 
 }

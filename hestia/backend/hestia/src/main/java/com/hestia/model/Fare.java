@@ -4,11 +4,13 @@ import lombok.Getter;
 import lombok.Setter;
 
 import jakarta.persistence.Id;
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 
 @Getter
 @Setter
+@Entity
 public class Fare {
     
     @Id
@@ -16,8 +18,9 @@ public class Fare {
     private Long id;
 
     private String name;
-    private int maxNumberDays;
     private double baseValue;
     private double increasePerGuest;
     private double increasePerChildren;
+    private AccCategory accCategory;
+
 }
