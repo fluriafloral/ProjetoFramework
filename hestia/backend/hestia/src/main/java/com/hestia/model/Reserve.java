@@ -1,6 +1,7 @@
 package com.hestia.model;
 
 import java.time.LocalDate;
+import java.util.List;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -15,7 +16,7 @@ enum Origin {
     EXPEDIA,
     WHATSAPP,
     INSTAGRAM, 
-    OTHERS
+    OTHER
 }
 
 @Getter
@@ -32,7 +33,8 @@ public class Reserve {
     private Origin origin;
     private int adults;
     private int children;
-    private Accommodation accommodation;
+    private Guest responsible;
+    private List<Accommodation> accommodation;
     private Fare fare;
 
 }

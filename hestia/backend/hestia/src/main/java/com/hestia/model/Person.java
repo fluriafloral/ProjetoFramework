@@ -21,8 +21,7 @@ enum Type {
 @Setter
 public abstract class Person {
 
-    private String name;
-    private String surName;
+    private String fullName;
     private String documentNumber;
     private Type documentType;
     private Sex sex;
