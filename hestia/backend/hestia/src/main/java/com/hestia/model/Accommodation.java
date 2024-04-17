@@ -4,20 +4,18 @@ import lombok.Getter;
 import lombok.Setter;
 
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+import com.hestia.model.enums.AccStatus;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 
-enum Status {
-    FREE, 
-    OCCUPIED,
-    UNCLEAN, 
-    IN_MAINTENANCE
-}
-
 @Getter
 @Setter
 @Entity
+@Table(name = "accommodations")
 public class Accommodation {
 
     @Id
@@ -26,7 +24,7 @@ public class Accommodation {
 
     private String name;
     private AccCategory category;
-    private Status status;
+    private AccStatus status;
     private int occupation;
     private int maxOccupation;
 

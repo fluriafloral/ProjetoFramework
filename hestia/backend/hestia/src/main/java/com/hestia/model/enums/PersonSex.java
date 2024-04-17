@@ -1,4 +1,4 @@
-package com.hestia.model;
+package com.hestia.model.enums;
 
 public enum PersonSex {
     MASCULINE,
