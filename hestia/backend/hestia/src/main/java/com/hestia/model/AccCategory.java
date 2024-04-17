@@ -21,7 +21,7 @@ public class AccCategory {
     private String description;
     private int quantity;
     private boolean active;
-    private boolean acceptsChildren;
+    private boolean acceptingChildren;
     private int maxNumberOfChildren;
 
 }

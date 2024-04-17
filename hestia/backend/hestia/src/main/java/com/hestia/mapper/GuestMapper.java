@@ -9,6 +9,7 @@ public class GuestMapper {
     
     public static GuestDTO mapToGuestDTO (Guest guest) {
         return new GuestDTO(
+
             guest.getId(),
             guest.getFullName(),
             guest.getDocumentNumber(),
@@ -19,6 +20,7 @@ public class GuestMapper {
             guest.getZipCode(),
             guest.getAddress(),
             guest.getCity()
+            
         );
     }
 }
